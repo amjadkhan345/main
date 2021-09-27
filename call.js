@@ -10,7 +10,7 @@ remoteVideo.onplaying = () => { remoteVideo.style.opacity = 1 }
 let peer
 function init(userId) {
     peer = new Peer(userId, {
-        host: 'https://asaschat.herokuapp.com/',
+        host: 'https://nameless-mountain-33786.herokuapp.com',
         port: 443,
         path: '/'
     })
